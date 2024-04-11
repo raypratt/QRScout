@@ -1,0 +1,157 @@
+{
+  "$schema": "../schema.json",
+  "title": "QRScout",
+  "page_title": "Crescendo Heat Map Scout",
+  "sections": [
+    {
+      "name": "Teleop",
+      "fields": [
+        {
+          "title": "Team Number",
+          "type": "select",
+          "required": true,
+          "code": "teamNumber",
+          "choices": {
+            "1" :"1 The Juggernauts",
+            "68" : "68 Truck Town Thunder",
+            "123" : "123 Team - Cosmos",
+            "280" : "280 TnT",
+            "302" : "302 The Dragons",
+            "494" : "494 Martians",
+            "858" : "858 Demons Robotics",
+            "1481" : "1481 The Riveters",
+            "1506" : "1506 Metal Muscle",
+            "1684" : "1684 The Chimeras",
+            "1701" : "1701 RoboCubs",
+            "2054" : "2054 Tech Vikes",
+            "2586" : "2586 Copper Bots",
+            "2611" : "2611 Jacktown Vectors",
+            "3536" : "3536 Electro Eagles",
+            "3538" : "3538 RoboJackets",
+            "3539" : "3539 Byting Bulldogs",
+            "3546" : "3546 Buc'n'Gears",
+            "3572" : "3572 Wavelength",
+            "3656" : "3656 Dexter Dreadbots",
+            "3688" : "3688 Norsemen",
+            "3770" : "3770 BlitzCreek",
+            "3875" : "3875 Red Storm Robotics",
+            "4130" : "4130 The Blue Devils",
+            "4381" : "4381 Twisted Devils",
+            "4967" : "4967 That ONE Team-OurNextEngineers",
+            "5436" : "5436 Cyber Cats",
+            "5530" : "5530 The Greenhills Lawnmowers",
+            "5675" : "5675 WiredCats",
+            "5676" : "5676 The H.E.R.O.E.S",
+            "6113" : "6113 M.A.R.C. 1",
+            "6570" : "6570 Whiteford Bobcats",
+            "7154" : "7154 TheROK",
+            "7501" : "7501 Golden Gears",
+            "8373" : "8373 The Flying Octopi: 8373 R.R.T.",
+            "8427" : "8427 Protobots",
+            "8517" : "8517 Bounty Hunters",
+            "8873" : "8873 Rockefeller Robotics",
+            "9176" : "9176 Greenspire Steel Sturgeons",
+            "9215" : "9215 T-Town Tech"
+          },
+          "defaultValue": 2611
+        },
+        {
+          "title": "Competition",
+          "type": "select",
+          "required": true,
+          "code": "competition",
+          "choices": {
+            "MSC-Consumers": "MSC-Consumers",
+            "Kettering1": "Kettering1",
+            "Milford": "Milford",
+            "Battle Creek": "Battle Creek",
+            "Berrien Springs": "Berrien Springs",
+            "Jackson": "Jackson",
+            "Belleville": "Belleville",
+            "Escanaba": "Escanaba",
+            "Kettering2": "Kettering2",
+            "St. Joseph": "St. Joseph",
+            "Woodhaven": "Woodhaven",
+            "Wayne State": "Wayne State",
+            "LSSU": "LSSU",
+            "Muskegon": "Muskegon",
+            "Traverse City": "Traverse City",
+            "Ann Arbor": "Ann Arbor",
+            "Lansing": "Lansing",
+            "Midland": "Midland",
+            "West Michigan": "West Michigan",
+            "Livonia": "Livonia",
+            "Troy1": "Troy1",
+            "Renaissance": "Renaissance",
+            "Kentwood": "Kentwood",
+            "Macomb": "Macomb",
+            "Central Michigan": "Central Michigan"
+          },
+          "defaultValue": "MSC-Consumers"
+        },
+        {
+          "title": "Match Number",
+          "type": "number",
+          "required": true,
+          "code": "matchNumber"
+        },
+        {
+          "code": "amp",
+          "title": "Amp",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
+          "required": false
+        },
+        {
+          "code": "swAmp",
+          "title": "swAmp",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
+          "required": false
+        },
+        {
+          "code": "swCenter",
+          "title": "swCenter",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
+          "required": false
+        },
+        {
+            "code": "swSource",
+            "title": "swSource",
+            "type": "counter",
+            "defaultValue": 0,
+            "min": 0,
+            "required": false
+        },
+        {
+            "code": "Q2 Amp",
+            "title": "Q2 Amp",
+            "type": "counter",
+            "defaultValue": 0,
+            "min": 0,
+            "required": false
+        },
+        {
+            "code": "Q2 Source",
+            "title": "Q2 Source",
+            "type": "counter",
+            "defaultValue": 0,
+            "min": 0,
+            "required": false
+        },
+        {
+            "code": "Q3",
+            "title": "Q3",
+            "type": "counter",
+            "defaultValue": 0,
+            "min": 0,
+            "required": false
+        }
+      ]
+    }
+  ]
+}
