@@ -5,7 +5,7 @@
   "sections": [
     {
       "name": "Prematch",
-      "fields": [
+      "fields": [ 
         {
           "title": "Scouter Initials",
           "type": "text",
@@ -23,6 +23,7 @@
             "Consumers": "Consumers",
             "DTE": "DTE",
             "Hemlock": "Hemlock",
+            "Milstein" : "Milstein",
             "Out of District": "Out of District"
           },
           "defaultValue": "Out of District"
