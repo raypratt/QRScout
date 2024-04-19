@@ -26,7 +26,7 @@
             "Milstein" : "Milstein",
             "Out of District": "Out of District"
           },
-          "defaultValue": "Out of District"
+          "defaultValue": "Milstein"
         },
         {
           "title": "Match Number",
@@ -60,7 +60,7 @@
           "choices": {
             "67" : "67 The HOT Team",
             "70" : "70 More Martians",
-            "78" : "70 AIR STRIKE",
+            "78" : "78 AIR STRIKE",
             "114" : "114 Eaglestrike",
             "175" : "175 Buzz Robotics",
             "179" : "179 Children of the Swamp",
@@ -229,7 +229,8 @@
             "1": "Parked",
             "3": "Onstage",
             "4": "Spotlight"
-          }
+          },
+          "defaultValue" : "0"
         },
         {
           "code": "cn",
